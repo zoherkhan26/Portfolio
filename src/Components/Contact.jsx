@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <section id="contact" className=" min-h-screen flex items-center justify-center ">
+    <section id="contact" className=" min-h-screen flex items-center justify-center px-4 ">
 
-      <div className="flex flex-col items-center justify-center  bg-gray-900 text-white p-6 w-1/2" >
+      <div className="flex flex-col items-center justify-center  bg-gray-900 text-white p-6 w-full max-w-lg sm:w-3/4 lg:w-1/2 rounded-lg shadow-lg" >
         <motion.h2
-          className="text-4xl font-bold mb-6"
+          className="text-3xl sm:text-4xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: false }}
+          
 
         >
           Get in Touch
         </motion.h2>
 
         <motion.p
-          className="text-lg text-gray-300 mb-6"
+          className="text-base sm:text-lg text-gray-300 mb-6 text-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          viewport={{ once: false }}
+          // viewport={{ once: false }} 
         >
           Feel free to reach out for collaborations or just a friendly chat!
         </motion.p>
@@ -55,7 +55,7 @@ const Contact = () => {
           ></textarea>
           <motion.button
             type="submit"
-            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition rounded-lg font-semibold"
+            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition rounded-lg font-semibold w-full sm:w-auto"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
