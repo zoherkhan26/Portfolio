@@ -8,19 +8,21 @@ import Todo from '../assets/Todo.png'
 const projects = [
   {
     id: 1,
-    title: "Project One",
+    title: "Currency Exchnage",
     description: "A brief description of the project.",
     image: currncyImage,
     demoLink: "#",
-    codeLink: "#",
+    codeLink: "https://github.com/zoherkhan26/React-JS/tree/3a7caaabff57f0ea5cebf5e3df53010fc3d58136",
   },
+  
+  // https://github.com/zoherkhan26/React-JS/tree/3a7caaabff57f0ea5cebf5e3df53010fc3d58136/currencyExchange
   {
     id: 2,
-    title: "Project Two",
+    title: "Todo List",
     description: "A brief description of the project.",
     image: Todo,
     demoLink: "#",
-    codeLink: "#",
+    codeLink: "https://github.com/zoherkhan26/React-JS/tree/3a7caaabff57f0ea5cebf5e3df53010fc3d58136",
   },
 
 ];
