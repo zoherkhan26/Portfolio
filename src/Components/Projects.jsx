@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     title: "Currency Exchnage",
-    description: "A brief description of the project.",
+    description: "convert the currency in real time",
     image: currncyImage,
     demoLink: "#",
     codeLink: "https://github.com/zoherkhan26/React-JS/tree/3a7caaabff57f0ea5cebf5e3df53010fc3d58136",
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: "Todo List",
-    description: "A brief description of the project.",
+    description: "manage your todo's locally",
     image: Todo,
     demoLink: "#",
     codeLink: "https://github.com/zoherkhan26/React-JS/tree/3a7caaabff57f0ea5cebf5e3df53010fc3d58136",
